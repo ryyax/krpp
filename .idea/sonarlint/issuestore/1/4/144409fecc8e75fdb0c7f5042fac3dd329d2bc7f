@@ -1,0 +1,10 @@
+
+o
+java:S2293
+"YReplace the type specification in this constructor call with the diamond operator ("<>").(šÛŸ©
+€
+java:S1319"jThe type of "equippment" should be an interface such as "List" rather than the implementation "ArrayList".(‘¼Àœ
+…
+java:S1319."jThe type of "equippment" should be an interface such as "List" rather than the implementation "ArrayList".(èì¸ëÿÿÿÿÿ
+†
+java:S1319:"pThe return type of this method should be an interface such as "List" rather than the implementation "ArrayList".(·ÑùÁ

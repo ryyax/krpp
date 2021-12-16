@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="518.0" prefWidth="356.0" style="-fx-background-color: #b00000;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Interface.MainViewController">
+   <children>
+      <Text fill="WHITE" layoutX="132.0" layoutY="59.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Меню">
+         <font>
+            <Font size="33.0" />
+         </font>
+      </Text>
+      <Button fx:id="gatherTroopToAttackButton" layoutX="63.0" layoutY="85.0" mnemonicParsing="false" onAction="#openGatherTroopToAttack" prefHeight="44.0" prefWidth="238.0" text="Зібрати військо для атаки" />
+      <Button fx:id="gatherKnightsToRebelsButton" layoutX="63.0" layoutY="145.0" mnemonicParsing="false" onAction="#openGatherKnightsToRebels" prefHeight="44.0" prefWidth="238.0" text="Відправити загін до повстанців" />
+      <Button fx:id="makeKnightButton" layoutX="63.0" layoutY="207.0" mnemonicParsing="false" onAction="#openMakeKnight" prefHeight="44.0" prefWidth="238.0" text="Посвятити лицаря" />
+      <Button fx:id="changeKnightTitleButton" layoutX="63.0" layoutY="324.0" mnemonicParsing="false" onAction="#openChangeKnightTitle" prefHeight="44.0" prefWidth="238.0" text="Змінити звання лицаря" />
+      <Button fx:id="executeKnightButton" layoutX="63.0" layoutY="387.0" mnemonicParsing="false" onAction="#openExecuteKnight" prefHeight="44.0" prefWidth="238.0" text="Стратити лицаря" />
+      <Button fx:id="exitButton" layoutX="63.0" layoutY="451.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="238.0" text="Вихід" />
+      <Button fx:id="equippKnight_button" layoutX="63.0" layoutY="265.0" mnemonicParsing="false" onAction="#openEquippKnight" prefHeight="44.0" prefWidth="238.0" text="Екіпірувати лицаря" />
+   </children>
+</AnchorPane>
